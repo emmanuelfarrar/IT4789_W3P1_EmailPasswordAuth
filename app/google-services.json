@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "794194655722",
+    "firebase_url": "https://w3p1-emailpasswordauth.firebaseio.com",
+    "project_id": "w3p1-emailpasswordauth",
+    "storage_bucket": "w3p1-emailpasswordauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794194655722:android:3c568d5e56be8f8e",
+        "android_client_info": {
+          "package_name": "com.example.omora.w3p1_emailpasswordauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794194655722-n216apgdhjn5u2f3ht2b9pkpspiseqj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omora.w3p1_emailpasswordauth",
+            "certificate_hash": "F3C76E921A0EACFE6686C4B756758EA954F2DD30"
+          }
+        },
+        {
+          "client_id": "794194655722-h3b72ecqnc4ian0r72hd1rromvuen2g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW4YzAoUrv7ZJr0dBdiKDNTYNOE5lxj24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794194655722-h3b72ecqnc4ian0r72hd1rromvuen2g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
