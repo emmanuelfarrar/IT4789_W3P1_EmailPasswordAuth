@@ -102,8 +102,27 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**signIn(String email, String password)
+     * Modified as required for U03A1
+     *
+     *
+     * @param email
+     * @param password
+     */
     private void signIn(String email, String password) {
-        Log.d(TAG, "signIn:not implemented yet:" + email);
+        //Log.d(TAG, "signIn:not implemented yet:" + email);
+        if (validateForm()) {
+            mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()){
+                        Log.d(TAG, "SignIn was successful");
+                    }else {
+                        Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+        }
     }
 
     private boolean validateForm() {
