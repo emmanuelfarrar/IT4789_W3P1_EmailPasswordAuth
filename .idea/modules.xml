@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IT4789_W3P1_EmailPasswordAuth.iml" filepath="$PROJECT_DIR$/.idea/modules/IT4789_W3P1_EmailPasswordAuth.iml" group="IT4789_W3P1_EmailPasswordAuth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IT4789_W3P1_EmailPasswordAuth-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IT4789_W3P1_EmailPasswordAuth-app.iml" group="IT4789_W3P1_EmailPasswordAuth/app" />
       <module fileurl="file://$PROJECT_DIR$/W3P1_EmailPasswordAuth.iml" filepath="$PROJECT_DIR$/W3P1_EmailPasswordAuth.iml" group="W3P1_EmailPasswordAuth" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="W3P1_EmailPasswordAuth/app" />
     </modules>

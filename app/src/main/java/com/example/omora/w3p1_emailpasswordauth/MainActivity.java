@@ -104,6 +104,9 @@ public class MainActivity extends AppCompatActivity {
 
     /**signIn(String email, String password)
      * Modified as required for U03A1
+     * if validateForm is true signInWithEmailAndPassword.
+     * onComplete if the task.isSuccessful print message to log and show toast to user
+     * else show toast of issue.
      *
      *
      * @param email
@@ -117,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
                         Log.d(TAG, "SignIn was successful");
+                        Toast.makeText(MainActivity.this, "SignIn was successful!",
+                                Toast.LENGTH_SHORT).show();
                     }else {
                         Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
